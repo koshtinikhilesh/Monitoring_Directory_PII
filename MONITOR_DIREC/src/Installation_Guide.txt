@@ -1,0 +1,34 @@
+This Task contains the following file structures:-
+
+(1) src/  - Python scripts location
+
+(2) monitoring/  - Folder where we monitor via script
+
+(3) todecode/    - Folder where we decode our txt file
+
+
+- INSTALL
+
+(1) Execute the following command:-
+    pip3 install pyminizip
+    pip3 install inotify
+    sudo apt-get install python-nltk
+    pip3 install spacy
+    python3 -m spacy download en
+
+   
+
+(2) Open Terminal and execute the following command
+
+-    python3
+-   # Execute the following in the python interpretor
+  >>> import nltk
+  >>> nltk.download('punkt')
+
+
+(3) Command to execute code in two terminals.
+
+    python3 src/test_inode.py monitoring/ todecode/
+    python3 src/test_decode.py  monitoring/ todecode
+
+
